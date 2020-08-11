@@ -3,9 +3,9 @@
 function setup() {
   createCanvas(1600,400);
   bullet=createSprite(50,200,50,50);
-  thickness=random(22,83);
-  speed=random(223,321);
-  weight=random(30,52);
+  thickness=random(52,83);
+  speed=random(233,290);
+  weight=random(32,48);
   wall=createSprite(1200,200,thickness,height/2);
   bullet.velocityX=speed;
   wall.shapeColor=(80,80,80);
